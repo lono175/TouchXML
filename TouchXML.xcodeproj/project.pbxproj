@@ -71,6 +71,34 @@
 		5FBDFF4712B6042800923CD7 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBDFF4612B6042800923CD7 /* CXHTMLDocument.m */; };
 		5FBDFF4812B6042800923CD7 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBDFF4612B6042800923CD7 /* CXHTMLDocument.m */; };
 		5FBDFF4912B6042800923CD7 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBDFF4612B6042800923CD7 /* CXHTMLDocument.m */; };
+		F951A5C3166E15B900A8FEF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F951A5C9166E15B900A8FEF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F951A5C7166E15B900A8FEF9 /* InfoPlist.strings */; };
+		F951A5D1166E167200A8FEF9 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 457940EC0D82214700EB2D22 /* CXMLDocument.m */; };
+		F951A5D2166E167200A8FEF9 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBDFF4612B6042800923CD7 /* CXHTMLDocument.m */; };
+		F951A5D3166E167200A8FEF9 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 457942370D822FEB00EB2D22 /* CXMLDocument_PrivateExtensions.m */; };
+		F951A5D4166E167200A8FEF9 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 457940EE0D82214700EB2D22 /* CXMLElement.m */; };
+		F951A5D5166E167200A8FEF9 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D113810EC9E906005193F9 /* CXMLElement_CreationExtensions.m */; };
+		F951A5D6166E167200A8FEF9 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 457940F00D82214700EB2D22 /* CXMLNode.m */; };
+		F951A5D7166E167200A8FEF9 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 457940F20D82214700EB2D22 /* CXMLNode_PrivateExtensions.m */; };
+		F951A5D8166E167200A8FEF9 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AA86A50DAB1D08008827B0 /* CXMLNode_XPathExtensions.m */; };
+		F951A5D9166E167200A8FEF9 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 458CE9C60F9C12BB009EF591 /* CXMLDocument_CreationExtensions.m */; };
+		F951A5DA166E167200A8FEF9 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 458CE9C80F9C12BB009EF591 /* CXMLNode_CreationExtensions.m */; };
+		F951A5DB166E167200A8FEF9 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 458CE9CB0F9C12BB009EF591 /* CTidy.m */; };
+		F951A5DC166E167200A8FEF9 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 030E27C81202762F008B53A4 /* CXMLNamespaceNode.m */; };
+		F951A5DD166E169A00A8FEF9 /* TouchXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AA24120E280F9700E12B55 /* TouchXML.h */; };
+		F951A5DE166E169A00A8FEF9 /* CXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 457940EB0D82214700EB2D22 /* CXMLDocument.h */; };
+		F951A5DF166E169A00A8FEF9 /* CXHTMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBDFF4512B6042800923CD7 /* CXHTMLDocument.h */; };
+		F951A5E1166E169A00A8FEF9 /* CXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 457940ED0D82214700EB2D22 /* CXMLElement.h */; };
+		F951A5E2166E169A00A8FEF9 /* CXMLElement_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D113800EC9E906005193F9 /* CXMLElement_CreationExtensions.h */; };
+		F951A5E3166E169A00A8FEF9 /* CXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 457940EF0D82214700EB2D22 /* CXMLNode.h */; };
+		F951A5E5166E169A00A8FEF9 /* CXMLNode_XPathExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AA86A40DAB1D08008827B0 /* CXMLNode_XPathExtensions.h */; };
+		F951A5E6166E169A00A8FEF9 /* CXMLDocument_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 458CE9C50F9C12BB009EF591 /* CXMLDocument_CreationExtensions.h */; };
+		F951A5E7166E169A00A8FEF9 /* CXMLNode_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 458CE9C70F9C12BB009EF591 /* CXMLNode_CreationExtensions.h */; };
+		F951A5EA166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F951A5E8166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.h */; };
+		F951A5EB166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F951A5E9166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m */; };
+		F951A5EC166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F951A5E9166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m */; };
+		F951A5ED166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F951A5E9166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m */; };
+		F951A5EE166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F951A5E9166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +177,13 @@
 		45D113810EC9E906005193F9 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
 		5FBDFF4512B6042800923CD7 /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
 		5FBDFF4612B6042800923CD7 /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXHTMLDocument.m; sourceTree = "<group>"; };
+		F951A5C2166E15B900A8FEF9 /* TouchXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = TouchXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F951A5C6166E15B900A8FEF9 /* TouchXML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchXML-Info.plist"; sourceTree = "<group>"; };
+		F951A5C8166E15B900A8FEF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F951A5CA166E15B900A8FEF9 /* TouchXML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchXML-Prefix.pch"; sourceTree = "<group>"; };
+		F951A5E8166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		F951A5E9166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		F951A5F0166E17BA00A8FEF9 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/lib/libxml2.2.dylib; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +212,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F951A5BC166E15B900A8FEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F951A5C3166E15B900A8FEF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -185,6 +228,7 @@
 			children = (
 				457940FF0D82217800EB2D22 /* TouchXMLUnitTests.octest */,
 				451E6E311152EB4A0024ABA5 /* TouchXMLValidator.app */,
+				F951A5C2166E15B900A8FEF9 /* TouchXML.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,9 +236,11 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F951A5F0166E17BA00A8FEF9 /* libxml2.2.dylib */,
 				457940EA0D82214700EB2D22 /* Source */,
 				457940E70D82214700EB2D22 /* UnitTests */,
 				451E6E441152EB790024ABA5 /* Validator */,
+				F951A5C4166E15B900A8FEF9 /* TouchXML */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -268,6 +314,8 @@
 			isa = PBXGroup;
 			children = (
 				45AA24120E280F9700E12B55 /* TouchXML.h */,
+				F951A5E8166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.h */,
+				F951A5E9166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m */,
 				457940EB0D82214700EB2D22 /* CXMLDocument.h */,
 				457940EC0D82214700EB2D22 /* CXMLDocument.m */,
 				5FBDFF4512B6042800923CD7 /* CXHTMLDocument.h */,
@@ -321,7 +369,45 @@
 			path = Tidy;
 			sourceTree = "<group>";
 		};
+		F951A5C4166E15B900A8FEF9 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				F951A5C5166E15B900A8FEF9 /* Supporting Files */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		F951A5C5166E15B900A8FEF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F951A5C6166E15B900A8FEF9 /* TouchXML-Info.plist */,
+				F951A5C7166E15B900A8FEF9 /* InfoPlist.strings */,
+				F951A5CA166E15B900A8FEF9 /* TouchXML-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F951A5BD166E15B900A8FEF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F951A5DD166E169A00A8FEF9 /* TouchXML.h in Headers */,
+				F951A5DE166E169A00A8FEF9 /* CXMLDocument.h in Headers */,
+				F951A5DF166E169A00A8FEF9 /* CXHTMLDocument.h in Headers */,
+				F951A5E1166E169A00A8FEF9 /* CXMLElement.h in Headers */,
+				F951A5E2166E169A00A8FEF9 /* CXMLElement_CreationExtensions.h in Headers */,
+				F951A5E3166E169A00A8FEF9 /* CXMLNode.h in Headers */,
+				F951A5E5166E169A00A8FEF9 /* CXMLNode_XPathExtensions.h in Headers */,
+				F951A5E6166E169A00A8FEF9 /* CXMLDocument_CreationExtensions.h in Headers */,
+				F951A5E7166E169A00A8FEF9 /* CXMLNode_CreationExtensions.h in Headers */,
+				F951A5EA166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		451E6E301152EB4A0024ABA5 /* TouchXMLValidator */ = {
@@ -374,6 +460,28 @@
 			productReference = 457940FF0D82217800EB2D22 /* TouchXMLUnitTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		F951A5C1166E15B900A8FEF9 /* TouchXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F951A5CE166E15B900A8FEF9 /* Build configuration list for PBXNativeTarget "TouchXML" */;
+			buildPhases = (
+				F951A5BA166E15B900A8FEF9 /* ShellScript */,
+				F951A5BB166E15B900A8FEF9 /* Sources */,
+				F951A5BC166E15B900A8FEF9 /* Frameworks */,
+				F951A5BD166E15B900A8FEF9 /* Headers */,
+				F951A5BE166E15B900A8FEF9 /* Resources */,
+				F951A5BF166E15B900A8FEF9 /* ShellScript */,
+				F951A5C0166E15B900A8FEF9 /* ShellScript */,
+				F951A5EF166E178800A8FEF9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchXML;
+			productName = TouchXML;
+			productReference = F951A5C2166E15B900A8FEF9 /* TouchXML.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -391,6 +499,7 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -400,6 +509,7 @@
 				456A848A0D81DB06000E29C9 /* TouchXMLDemo */,
 				457940FE0D82217800EB2D22 /* TouchXMLUnitTests */,
 				451E6E301152EB4A0024ABA5 /* TouchXMLValidator */,
+				F951A5C1166E15B900A8FEF9 /* TouchXML */,
 			);
 		};
 /* End PBXProject section */
@@ -420,6 +530,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F951A5BE166E15B900A8FEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F951A5C9166E15B900A8FEF9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -435,6 +553,58 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n\n # Run gcov on the framework getting tested\nif [ \"${CONFIGURATION}\" = 'Coverage' ]; then\n\techo '##########################################################################'\n\tCOVERAGE_OUTPUT_DIR=${SRCROOT}/Coverage\n\techo \"${COVERAGE_OUTPUT_DIR}\"\n\tmkdir -p \"${COVERAGE_OUTPUT_DIR}\"\n\tpushd \"${OBJECT_FILE_DIR_normal}/${CURRENT_ARCH}\"\n\tpwd\n\tfind . -name '*.gcda' -exec gcov {} \\;\n\tfind . -name '*.gcov' -exec mv {} \"${COVERAGE_OUTPUT_DIR}\" \\;\n\tpopd\n\techo '##########################################################################'\nfi \n";
+		};
+		F951A5BA166E15B900A8FEF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		F951A5BF166E15B900A8FEF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		F951A5C0166E15B900A8FEF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+		F951A5EF166E178800A8FEF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=${PROJECT_NAME}\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=${BUILT_PRODUCTS_DIR}/${FMK_NAME}.framework\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${WRK_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Remove the working direcotry\n# rm -rf \"${WRK_DIR}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -456,6 +626,7 @@
 				451E6F321152ED8F0024ABA5 /* CXMLNode_CreationExtensions.m in Sources */,
 				030E27CB1202762F008B53A4 /* CXMLNamespaceNode.m in Sources */,
 				5FBDFF4912B6042800923CD7 /* CXHTMLDocument.m in Sources */,
+				F951A5ED166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +648,7 @@
 				45045CA8121E47ED00BD4662 /* CXMLNode_Debugging.m in Sources */,
 				45045CA9121E47ED00BD4662 /* main.m in Sources */,
 				5FBDFF4712B6042800923CD7 /* CXHTMLDocument.m in Sources */,
+				F951A5EB166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +672,27 @@
 				030E2698120115B3008B53A4 /* NamespaceTests.m in Sources */,
 				030E27C91202762F008B53A4 /* CXMLNamespaceNode.m in Sources */,
 				5FBDFF4812B6042800923CD7 /* CXHTMLDocument.m in Sources */,
+				F951A5EC166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F951A5BB166E15B900A8FEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F951A5D1166E167200A8FEF9 /* CXMLDocument.m in Sources */,
+				F951A5D2166E167200A8FEF9 /* CXHTMLDocument.m in Sources */,
+				F951A5D3166E167200A8FEF9 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				F951A5D4166E167200A8FEF9 /* CXMLElement.m in Sources */,
+				F951A5D5166E167200A8FEF9 /* CXMLElement_CreationExtensions.m in Sources */,
+				F951A5D6166E167200A8FEF9 /* CXMLNode.m in Sources */,
+				F951A5D7166E167200A8FEF9 /* CXMLNode_PrivateExtensions.m in Sources */,
+				F951A5D8166E167200A8FEF9 /* CXMLNode_XPathExtensions.m in Sources */,
+				F951A5D9166E167200A8FEF9 /* CXMLDocument_CreationExtensions.m in Sources */,
+				F951A5DA166E167200A8FEF9 /* CXMLNode_CreationExtensions.m in Sources */,
+				F951A5DB166E167200A8FEF9 /* CTidy.m in Sources */,
+				F951A5DC166E167200A8FEF9 /* CXMLNamespaceNode.m in Sources */,
+				F951A5EE166E174400A8FEF9 /* CXMLElement_ElementTreeExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +715,17 @@
 			targetProxy = 457941090D8221A100EB2D22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F951A5C7166E15B900A8FEF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F951A5C8166E15B900A8FEF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		451E6E361152EB4B0024ABA5 /* Debug */ = {
@@ -857,6 +1061,102 @@
 			};
 			name = Release;
 		};
+		F951A5CB166E15B900A8FEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchXML/TouchXML-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "TouchXML/TouchXML-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		F951A5CC166E15B900A8FEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchXML/TouchXML-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "TouchXML/TouchXML-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		F951A5CD166E15B900A8FEF9 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchXML/TouchXML-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "TouchXML/TouchXML-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Coverage;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -909,6 +1209,15 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
+		};
+		F951A5CE166E15B900A8FEF9 /* Build configuration list for PBXNativeTarget "TouchXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F951A5CB166E15B900A8FEF9 /* Debug */,
+				F951A5CC166E15B900A8FEF9 /* Release */,
+				F951A5CD166E15B900A8FEF9 /* Coverage */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
